@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+body{
+    position:relative;
+    padding: 0 150px;
+}
+/* navbar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-bottom: 2px solid hsl(223, 64%, 98%);
+}
+.left{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.menu{
+    margin-right: 1rem;
+    display: none;
+}
+.link{
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: hsl(219, 9%, 45%);
+}
+.right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+}
+.avatar{
+    width: 50px;
+    padding-left: 1rem;
+}
+
+
+/* container*/
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 4.5rem;
+    justify-content: space-between;
+}
+    /*images display*/
+.product{
+    width: 50%;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+.big-img{
+    width: 100%;
+}
+.list-product{
+    width: 20%;
+    display: flex;
+}
+.img-p{
+    width: 100%;
+    border-radius: 1rem;
+}
+.img-s{
+    width: 100%;
+    border-radius: .5rem;
+    margin: 1.5rem 2rem 0 0;
+}
+/*description display*/
+.description{
+    width: 50%;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 4rem;
+}
+p{
+    color: hsl(219, 9%, 45%);
+}
+.text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.company{
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h1{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 1rem 0;
+
+}
+.price p{
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+h2{
+    margin-right: 5px;
+    font-weight: bold;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+.quantity p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 60px;
+    background-color: hsl(223, 64%, 98%);
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 60px;
+    background-color: hsl(223, 64%, 98%);
+    cursor: pointer;
+}
+.minus{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.plus{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+svg{
+    margin-right: 10px;
+}
+
+.attribution{
+    width: 100%;
+    margin-top: 3rem;
+    background-color: hsl(0, 0%, 75%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* MEDIA QUERIES MOBILE*/
+@media screen and (max-width: 760px){
+    body{
+        padding: 0;
+    }
+    .links{
+        display: none;
+    }
+    .navbar{
+        border: none;
+    }
+    .menu{
+        display: block;
+    }
+    
+}
