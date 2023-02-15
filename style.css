@@ -209,17 +209,34 @@ svg{
         font-size: 2rem;
     }
     .product{
-        width: 95%;
-        margin: 0;
+        width: 100%;
+        margin-left: 0;
     }
     .big-img{
         width: 100%;
     }
     .img-p{
-        border-radius: none;
+        width: 100%;
+        border-radius: 0;
     }
 
     .list-product{
         display: none;
+    }
+    .shop{
+        flex-direction:column;
+        width: 100%
+    }
+    .cart{
+        width: 100%
+    }
+    span{
+        width: 100px;
+    }
+    .quantity p{
+        width: 174px;
+    }
+    button{
+        width: 100%
     }
 }
