@@ -185,5 +185,41 @@ svg{
     .menu{
         display: block;
     }
-    
+    .left{
+        width:20%;
+        margin-left: 1.5rem;
+    }
+    .right{
+        width: 80%;
+        margin-right: 1.5rem;
+    }
+    .content{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+    .description{
+        width:100%;
+        padding: 0 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .product{
+        width: 95%;
+        margin: 0;
+    }
+    .big-img{
+        width: 100%;
+    }
+    .img-p{
+        border-radius: none;
+    }
+
+    .list-product{
+        display: none;
+    }
 }
